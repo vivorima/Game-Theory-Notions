@@ -1,0 +1,59 @@
+QPushButton
+{
+    color:rgb(24, 24, 73);
+    background-color: rgb(247, 58, 77);
+    border-width: 3px;
+    border-color: rgb(215, 215, 207);
+    border-radius: 8;
+    font-size: 24px;
+}
+
+QPushButton:pressed
+{
+    color: rgb(247, 58, 77);
+    background-color: rgb(24, 24, 73);
+}
+
+QLineEdit
+{
+    color: rgb(24, 24, 73);
+    background-color: rgb(166, 168, 192);
+    border-width: 3px;
+    border-color: rgb(215, 215, 207);
+    border-radius: 8;
+    font-size: 18px;
+
+}
+
+QLabel
+{
+    color:rgb(167, 208, 227);
+    background-color: rgb(24, 24, 73);
+    border-width: 3px;
+    border-color: rgb(215, 215, 207);
+    border-radius: 8;
+    font-size: 22px;
+}
+
+QListView
+{
+    background-color: silver;
+    margin-left: 5px;
+}
+
+QWidget:item:hover
+{
+    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #F58488, stop: 1 #F58488);
+    color: #000000;
+}
+
+QWidget:item:selected
+{
+    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #D8184C, stop: 1 #D8184C);
+}
+QTextBrowser
+{
+    color:rgb(24, 24, 73);
+    background-color: rgb(250, 250, 250);
+    font-size: 20px;
+}

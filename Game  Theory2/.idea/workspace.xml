@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="92c2087f-d291-408a-b77c-26bb237f8e71" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gsTOYvXojrNhX2jqS5z5ZqmYtL" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GTh Mixed" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\S2\Projects\GTh Mixed" />
+      <recent name="G:\S2\Projects\Game  Theory2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Algos">
+    <configuration name="Algos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Game  Theory2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algos.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GUI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Game  Theory2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="te" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Game  Theory2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/te.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Algos" />
+        <item itemvalue="Python.te" />
+        <item itemvalue="Python.GUI" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92c2087f-d291-408a-b77c-26bb237f8e71" name="Default Changelist" comment="" />
+      <created>1598902268051</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598902268051</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="213" key="#Inspections" timestamp="1599157105834">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="552" y="213" key="#Inspections/0.30.1920.1050@0.30.1920.1050" timestamp="1599157105834" />
+    <state x="740" y="309" key="FileChooserDialogImpl" timestamp="1599416513125">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="740" y="309" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1599416513125" />
+    <state width="1899" height="47" key="GridCell.Tab.0.bottom" timestamp="1599416513954">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="47" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1599416513954" />
+    <state width="1899" height="47" key="GridCell.Tab.0.center" timestamp="1599416513954">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="47" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1599416513954" />
+    <state width="1899" height="47" key="GridCell.Tab.0.left" timestamp="1599416513954">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="47" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1599416513954" />
+    <state width="1899" height="47" key="GridCell.Tab.0.right" timestamp="1599416513954">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="47" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1599416513954" />
+    <state width="1023" height="329" key="GridCell.Tab.1.bottom" timestamp="1599405382195">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1023" height="329" key="GridCell.Tab.1.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1599405382195" />
+    <state width="1023" height="329" key="GridCell.Tab.1.center" timestamp="1599405382195">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1023" height="329" key="GridCell.Tab.1.center/0.30.1920.1050@0.30.1920.1050" timestamp="1599405382195" />
+    <state width="1023" height="329" key="GridCell.Tab.1.left" timestamp="1599405382195">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1023" height="329" key="GridCell.Tab.1.left/0.30.1920.1050@0.30.1920.1050" timestamp="1599405382195" />
+    <state width="1023" height="329" key="GridCell.Tab.1.right" timestamp="1599405382195">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1023" height="329" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1599405382195" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1599071977684">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.30.1920.1050@0.30.1920.1050" timestamp="1599071977684" />
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1599070080713">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1599070080713" />
+  </component>
+</project>

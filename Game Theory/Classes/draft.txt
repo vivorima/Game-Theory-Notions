@@ -1,0 +1,191 @@
+# ********************************************************
+def exempleexo3():
+    Joueurs = [j("J1"), j("J2")]
+
+    Joueurs[0].ajouter_strats([s("X", Joueurs[0]), s("Y", Joueurs[0]), s("Z", Joueurs[0])])
+    Joueurs[1].ajouter_strats([s("T", Joueurs[1]), s("U", Joueurs[1]), s("V", Joueurs[1])])
+
+    Profils = get_Profils(Joueurs)
+    Gains = [
+        [3, 2],
+        [4, 0],
+        [5, 1],
+        [1, 0],
+        [7, 3],
+        [2, 5],
+        [2, 0],
+        [8, 5],
+        [1, 7]
+    ]
+
+    Ajouter_Gains(Profils, Gains)
+    Attribuer_Profils(Joueurs, Profils)
+    print(exeq(strats_strict_dominantes(Joueurs)))
+    print(exeq(strats_faible_dominantes(Joueurs)))
+    print_Nivs(Joueurs)
+    print("Les Equilibres de Nash:\n", Nash(Joueurs, Profils))
+    print("Optimum de Pareto: ", Optimum_Pareto(Profils))
+
+
+def exempleexo1():
+    Joueurs = [j("J1"), j("J2")]
+
+    Joueurs[0].ajouter_strats([s("X", Joueurs[0]), s("Y", Joueurs[0]), s("Z", Joueurs[0])])
+    Joueurs[1].ajouter_strats([s("U", Joueurs[1]), s("V", Joueurs[1]), s("W", Joueurs[1])])
+
+    Profils = get_Profils(Joueurs)
+    Gains = [
+        [3, 0],
+        [0, 2],
+        [0, 3],
+        [2, 0],
+        [1, 1],
+        [2, 0],
+        [0, 3],
+        [0, 2],
+        [3, 0]
+    ]
+
+    Ajouter_Gains(Profils, Gains)
+    Attribuer_Profils(Joueurs, Profils)
+    print(exeq(strats_strict_dominantes(Joueurs)))
+    print(exeq(strats_faible_dominantes(Joueurs)))
+    print_Nivs(Joueurs)
+    print("Les Equilibres de Nash:\n", Nash(Joueurs, Profils))
+    print("Optimum de Pareto: ", Optimum_Pareto(Profils))
+
+
+def exemple3Joueurs():
+    Joueurs = [j("J1"), j("J2"), j("J3")]
+
+    Joueurs[0].ajouter_strats([s("X", Joueurs[0]), s("Y", Joueurs[0]), s("Z", Joueurs[0])])
+    Joueurs[1].ajouter_strats([s("T", Joueurs[1]), s("U", Joueurs[1]), s("V", Joueurs[1])])
+    Joueurs[2].ajouter_strats([s("A", Joueurs[2]), s("B", Joueurs[2])])
+
+    Profils = get_Profils(Joueurs)
+    Gains = [
+        [3, 2, 1],  # (X, T, A)
+        [4, 0, 3],  # (X, T, B)
+        [5, 1, 2],  # (X, U, A)
+        [1, 0, 0],  # (X, U, B)
+        [7, 3, 2],  # (X, V, A)
+        [2, 5, 0],  # (X, V, B)
+        [2, 0, -1],  # (Y, T, A)
+        [8, 5, 2],  # (Y, T, B)
+        [1, 7, 8],  # (Y, U, A)
+        [0, 2, 3],  # (Y, U, B)
+        [2, 0, 1],  # (Y, V, A)
+        [3, 1, -1],  # (Y, V, B)
+        [1, 2, 0],  # (Z, T, A),
+        [2, 3, 4],  # (Z, T, B),
+        [1, 4, 2],  # (Z, U, A),
+        [3, 1, 2],  # (Z, U, B),
+        [0, 0, 2],  # (Z, V, A),
+        [1, 3, 4]  # (Z, V, B)
+    ]
+    Ajouter_Gains(Profils, Gains)
+    Attribuer_Profils(Joueurs, Profils)
+    print(exeq(strats_strict_dominantes(Joueurs)))
+    print(exeq(strats_faible_dominantes(Joueurs)))
+    print_Nivs(Joueurs)
+    print("Les Equilibres de Nash:\n", Nash(Joueurs, Profils))
+    print("Optimum de Pareto: ", Optimum_Pareto(Profils))
+
+
+# # J, P = exemple3Joueurs()
+# exempleexo1()
+# J, P = exempleexo3()
+#
+# print(exeq(strats_strict_dominantes(J)))
+# print(exeq(strats_faible_dominantes(J)))
+# print_Nivs(J)
+# print("Les Equilibres de Nash:\n", Nash(J, P))
+# print("Optimum de Pareto: ", Optimum_Pareto(P))
+#
+#
+#
+# # for j in J:
+# #     for s in j.strats:
+# #         print(s)
+
+
+calculer l’équilibre de Nash mixte dans un jeu à deux joueurs avec au maximum 3 stratégies chacun
+
+
+# Joueurs = [j("J1"), j("J2"), j("J3")]
+#
+# Joueurs[0].ajouter_strats([s("X", Joueurs[0]), s("Y", Joueurs[0]), s("Z", Joueurs[0])])
+# Joueurs[1].ajouter_strats([s("T", Joueurs[1]), s("U", Joueurs[1]), s("V", Joueurs[1])])
+# Joueurs[2].ajouter_strats([s("A", Joueurs[2]), s("B", Joueurs[2])])
+#
+# Profils = get_Profils(Joueurs)
+# Gains = [
+#     [3, 2, 1],  # (X, T, A)
+#     [4, 0, 3],  # (X, T, B)
+#     [5, 1, 2],  # (X, U, A)
+#     [1, 0, 0],  # (X, U, B)
+#     [7, 3, 2],  # (X, V, A)
+#     [2, 5, 0],  # (X, V, B)
+#     [2, 0, -1],  # (Y, T, A)
+#     [8, 5, 2],  # (Y, T, B)
+#     [1, 7, 8],  # (Y, U, A)
+#     [0, 2, 3],  # (Y, U, B)
+#     [2, 0, 1],  # (Y, V, A)
+#     [3, 1, -1],  # (Y, V, B)
+#     [1, 2, 0],  # (Z, T, A),
+#     [2, 3, 4],  # (Z, T, B),
+#     [1, 4, 2],  # (Z, U, A),
+#     [3, 1, 2],  # (Z, U, B),
+#     [0, 0, 2],  # (Z, V, A),
+#     [1, 3, 4]  # (Z, V, B)
+# ]
+
+# Joueurs = [j("J1"), j("J2")]
+#
+# Joueurs[0].ajouter_strats([s("X", Joueurs[0]), s("Y", Joueurs[0]), s("Z", Joueurs[0])])
+# Joueurs[1].ajouter_strats([s("U", Joueurs[1]), s("V", Joueurs[1]), s("W", Joueurs[1])])
+#
+# Profils = get_Profils(Joueurs)
+# Gains = [
+#     [3, 0],
+#     [0, 2],
+#     [0, 3],
+#     [2, 0],
+#     [1, 1],
+#     [2, 0],
+#     [0, 3],
+#     [0, 2],
+#     [3, 0]
+# ]
+
+Joueurs = [j("J1"), j("J2")]
+
+Joueurs[0].ajouter_strats([s("X", Joueurs[0]), s("Y", Joueurs[0])])
+Joueurs[1].ajouter_strats([s("T", Joueurs[1]), s("U", Joueurs[1])])
+
+Profils = get_Profils(Joueurs)
+Gains = [
+    [-2, 2],
+    [1, -1],
+    [-3, 3],
+    [2, -2]
+]
+
+# Joueurs = [j("J1"), j("J2")]
+# Joueurs[0].ajouter_strats([s("a", Joueurs[0]), s("b", Joueurs[0])])
+# Joueurs[1].ajouter_strats([s("T", Joueurs[1]), s("U", Joueurs[1])])
+# Profils = get_Profils(Joueurs)
+# Gains = [
+#     [3, 1],
+#     [2, 2],
+#     [0, 8],
+#     [0, -1]
+# ]
+Ajouter_Gains(Profils, Gains)
+Attribuer_Profils(Joueurs, Profils)
+# print(strats_strict_dominantes(Joueurs))
+# print(exeq())
+# print(exeq(strats_faible_dominantes(Joueurs)))
+# print("Optimum de Pareto: ", Optimum_Pareto(Profils))
+valeur(Joueurs)
+print(SommeNulle(Joueurs, Profils))
