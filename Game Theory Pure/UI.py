@@ -2,11 +2,10 @@ import sys
 from PyQt5 import QtCore, QtWidgets
 from PyQt5.QtCore import pyqtSlot
 from PyQt5.QtWidgets import *
-from Classes.game import *
-from Classes.Joueur import Joueur
-from Classes.Strat import Strat
-from Classes.Profil import Profil
-
+from game import *
+from Joueur import Joueur
+from Strat import Strat
+from Profil import Profil
 
 class Start(QtWidgets.QWidget):
     switch_window = QtCore.pyqtSignal(int)
@@ -15,8 +14,8 @@ class Start(QtWidgets.QWidget):
         QtWidgets.QWidget.__init__(self)
         # window Properties
         self.setWindowTitle('Stratégies Pures')
-        self.setMinimumWidth(500)
-        self.setMaximumWidth(500)
+        self.setMinimumWidth(600)
+        self.setMaximumWidth(600)
         self.setMinimumHeight(400)
         self.setMaximumHeight(400)
 

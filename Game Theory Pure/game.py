@@ -3,9 +3,9 @@ from itertools import product
 
 import numpy as np
 
-from Classes.Joueur import Joueur as j
-from Classes.Strat import Strat as s
-from Classes.Profil import Profil as p
+from Joueur import Joueur as j
+from Strat import Strat as s
+from Profil import Profil as p
 
 
 def get_Profils(game):
